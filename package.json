@@ -1,0 +1,24 @@
+{
+  "name": "isu-email-script",
+  "version": "1.0.0",
+  "description": "Node script that takes in a CSV of email addresses and checks them against Iowa State's student registery.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-modules script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjroush/isu-email-script.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjroush/isu-email-script/issues"
+  },
+  "homepage": "https://github.com/jjroush/isu-email-script#readme",
+  "dependencies": {
+    "cli-progress": "^3.0.0",
+    "got": "^9.6.0"
+  }
+}
